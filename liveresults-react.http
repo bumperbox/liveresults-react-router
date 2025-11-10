@@ -1,0 +1,8 @@
+### GET competitions
+GET https://liveresults-master.local.nz/api/react/10/competitions?offset=0&limit=10
+
+### GET specific competition
+#GET https://liveresults-master.local.nz/api/react/10/competitions/7eaa6775-c691-4b58-8afa-5e8b32ce3c4c
+
+### GET competition races
+GET https://liveresults-master.local.nz/api/react/10/competitions/7eaa6775-c691-4b58-8afa-5e8b32ce3c4c/races

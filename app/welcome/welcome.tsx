@@ -25,6 +25,33 @@ export function Welcome({ message }: { message: string }) {
 							What&apos;s next?
 						</p>
 						<ul>
+                            <li>
+                                <a
+                                    className="group flex items-center gap-3 self-stretch p-3 leading-normal text-blue-700 hover:underline dark:text-blue-500"
+                                    href="/competitions"
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="20"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        className="stroke-gray-600 group-hover:stroke-current dark:stroke-gray-300"
+                                    >
+                                        <path
+                                            d="M16 4V2a2 2 0 0 0-2-2H10a2 2 0 0 0-2 2v2H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-4zM10 2h4v2H10V2zm10 18H4V6h16v14z"
+                                            strokeWidth="1.5"
+                                            strokeLinecap="round"
+                                        />
+                                        <path
+                                            d="M8 10h8M8 14h8"
+                                            strokeWidth="1.5"
+                                            strokeLinecap="round"
+                                        />
+                                    </svg>
+                                    View Competitions
+                                </a>
+                            </li>
 							{resources.map(({ href, text, icon }) => (
 								<li key={href}>
 									<a
